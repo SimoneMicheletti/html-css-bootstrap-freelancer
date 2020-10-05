@@ -13,7 +13,7 @@ body {
 
 [class*="col-"]{
   border: 1px solid black;
-  height: 70px;
+  min-height: 70px;
 }
 
 a {
@@ -36,6 +36,25 @@ section {
   width: 100%;
 }
 
+@media all and (min-width:992px) and (max-width:1169px) {
+
+  .centrale {
+    width: 85%;
+  }
+
+}
+
+@media all and (min-width:1170px) {
+
+  .centrale {
+    width: 70%;
+  }
+
+}
+
+
+
+
   /* REGOLE NAV */
 
 nav {
@@ -45,21 +64,22 @@ nav {
   width: 100%;
   color: white;
   font-weight: bold;
+  z-index: 999;
 }
 
 #nav-big {
   display: none;
 }
 
-#logo , .nav-link {
+#logo {
   height: 70px;
-  margin: 20px 0;
+  padding: 20px 0;
 }
 
 .nav-link {
   float: right;
   height: 70px;
-  margin: 20px 0 20px 50px;
+  padding: 20px 0 20px 50px;
 }
 
 #hamburger .clearfix {
@@ -105,6 +125,8 @@ nav {
 #section1 {
   margin-top: 70px;
   background-color: #1abc9c;
+  text-align: center;
+  color: white;
 }
 
 .centrale {
@@ -112,25 +134,29 @@ nav {
   margin: auto;
 }
 
-@media all and (min-width:992px) and (max-width:1169px) {
-
-  .centrale {
-    width: 85%;
-  }
-
+#section1 .centrale img {
+  width: 200px;
+  height: auto;
 }
 
-@media all and (min-width:1170px) {
-
-  .centrale {
-    width: 70%;
-  }
-
-}
 
 
 
 /* REGOLE SEZIONE 2 */
+
+#section2 {
+  text-align: center;
+}
+
+#section2 img {
+  width: 100%;
+  height: auto;
+  margin: 15px 0;
+}
+
+#section2 .row:first-child{
+  margin-bottom: 15px;
+}
 
 
 
