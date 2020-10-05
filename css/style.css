@@ -1,0 +1,92 @@
+/* REGOLE GENERALI */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+[class*="col-"]{
+  border: 1px solid black;
+}
+
+section {
+  padding: 70px 0;
+}
+
+
+
+  /* REGOLE HEADER */
+
+header {
+  background-color: #2c3e50;
+}
+
+[class*="col-"] {
+  min-height: 100px;
+}
+
+
+
+/* REGOLE SEZIONE 1 */
+
+#section1 , #section3 {
+  background-color: #1abc9c
+}
+
+.centrale {
+  border: 1px solid white;
+  margin: auto;
+}
+
+@media all and (min-width:790px) and (max-width:1169px) {
+
+  .centrale {
+    width: 85%;
+  }
+
+}
+
+@media all and (min-width:1170px) {
+
+  .centrale {
+    width: 70%;
+  }
+
+}
+
+
+
+/* REGOLE SEZIONE 2 */
+
+
+
+/* REGOLE SEZIONE 3 */
+
+
+
+/* REGOLE SEZIONE 4 */
+
+
+
+/* REGOLE FOOTER */
+
+footer {
+  text-align: center;
+  color: white;
+}
+
+#footer-top {
+  background-color: #2c3e50;
+  padding: 70px 0;
+}
+
+#footer-bottom {
+  background-color: #1a252f;
+  padding: 30px 0;
+  min-height: 0;
+}
+
+#footer-bottom [class*="col-"] {
+  min-height: 0px;
+}
