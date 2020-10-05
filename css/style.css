@@ -101,7 +101,6 @@ nav {
   display: none;
   padding: 15px;
   background-color: #2c3e50;
-  border-radius: 10px;
 }
 
 #hamburger:hover  #menu-hamburger {
@@ -123,11 +122,8 @@ nav {
     display: none;
   }
 
-  #nav-small .nav-link {
+  #hamburger .nav-link {
     float: none;
-    display: block;
-    width: 300px;
-    margin-right: 0;
   }
 
 
@@ -202,6 +198,15 @@ nav {
   border: 2px solid white;
   border-radius: 5px;
 }
+
+#free-download:hover {
+  background-color: #2c3e50
+}
+
+#free-download a:hover {
+  color: white;
+}
+
 
 
 
