@@ -166,6 +166,7 @@ nav {
 #section2 img {
   width: 100%;
   height: auto;
+  border-radius: 10px;
 }
 
 #section2 .row:first-child{
@@ -183,6 +184,7 @@ nav {
   height: 100%;
   width: 100%;
   background-color: rgba(26, 188, 156, 0.8);
+  border-radius: 10px;
 }
 
 .layover>i {
@@ -223,13 +225,14 @@ nav {
 
 #free-download {
   display: inline-block;
-  padding: 5px 10px;
+  padding: 10px 20px;
   border: 2px solid white;
   border-radius: 5px;
 }
 
 #free-download:hover {
   background-color: white;
+  color: #2c3e50;
 }
 
 #free-download a:hover {
