@@ -53,22 +53,20 @@ h1, h2, h3 {
   margin: 0 15px;
 }
 
-
+.centrale {
+  margin: auto;
+}
 
 @media all and (min-width:992px) and (max-width:1169px) {
-
   .centrale {
     width: 85%;
   }
-
 }
 
 @media all and (min-width:1170px) {
-
   .centrale {
     width: 70%;
   }
-
 }
 
 
@@ -91,13 +89,13 @@ nav {
 }
 
 #logo {
-  height: 70px;
+  min-height: 70px;
   padding: 20px 0;
 }
 
 .nav-link {
   float: right;
-  height: 70px;
+  min-height: 70px;
   padding: 20px 0 20px 50px;
 }
 
@@ -134,11 +132,7 @@ nav {
   color: white;
 }
 
-.centrale {
-  margin: auto;
-}
-
-#section1 .centrale img {
+#section1 img {
   width: 200px;
   height: auto;
 }
