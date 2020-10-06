@@ -125,20 +125,6 @@ nav {
 }
 
 
-@media all and (min-width:992px) {
-
-  #nav-big {
-    display: block;
-  }
-
-  #nav-small {
-    display: none;
-  }
-
-}
-
-
-
 /* REGOLE SEZIONE 1 */
 
 #section1 {
