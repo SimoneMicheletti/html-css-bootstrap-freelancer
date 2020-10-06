@@ -193,17 +193,16 @@ nav {
   color: white;
 }
 
-#section3 .row:first-child ,
-#section3 .row:last-child {
+#section3>.container>.row {
   text-align: center;
 }
 
-#section3 .row:nth-child(2) {
+#section3 .centrale {
   margin-top: 20px;
 
 }
 
-#section3 .row:nth-child(2)>div{
+#section3 .centrale>div{
   margin-bottom: 20px;
 }
 
