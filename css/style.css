@@ -227,11 +227,10 @@ nav.navbar {
 
 #section3 .centrale {
   margin-top: 20px;
-
 }
 
-#section3 .centrale>div{
-  margin-bottom: 20px;
+#section3 .centrale div{
+  margin-bottom: 10px;
 }
 
 #free-download {
